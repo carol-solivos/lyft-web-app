@@ -2,8 +2,23 @@ body {
 	font-family: 'Lato';
 }
 
+.splash {
+	background: linear-gradient(to bottom right, #5D0458, #FF027A);
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 999;
+}
+
+.splash img{
+	width: 200px;
+}
+
 .loader {
-    border: 6px solid #eee;
+    border: 6px solid rgba(255,255,255,.8);
     border-top: 6px solid #AA00A8;
     border-radius: 60%;
     width: 50px;
@@ -15,4 +30,63 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+header img {
+	width: 80px;
+	margin: 10px;
+}
+
+.first {
+	background-image: url(../images/city_night_city_lights_street.jpg);
+	height: 100vh;
+	background-position: center 74%;
+}
+
+.logoIn img {
+	width: 200px;
+}
+
+.logoIn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 60%;
+}
+
+.btnLine {
+	background-color: transparent;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 20px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+.btnLine:hover {
+	background-color: rgba(255,255,255,.4);
+	color: #fff;
+}
+
+.btnLogin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	height: 30%;
+}
+
+#signUpSection {
+	display: none;
+}
+
+#signUpSection .input-group img{
+	width: 30px;
+}
+
+.logoUp img{
+	width: 80px;
+	margin: 10px;
 }
