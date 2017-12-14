@@ -2,7 +2,7 @@ $(document).ready(function(){
   $(function(){
     setTimeout(function() {
         $('.splash').fadeOut('3000');
-    }, 500); //velocity in ms (3500)
+    }, 3500); //velocity in ms (3500)
   });
   $('#signUp').click(function(){
     $('#first').hide();
